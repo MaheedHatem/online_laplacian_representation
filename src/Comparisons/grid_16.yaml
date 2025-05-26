@@ -1,0 +1,11 @@
+results_dirs :
+  OAGDO PPO:
+      - 'online_ppo_grid_room_16_1'
+      - 'online_ppo_grid_room_16_2'
+      - 'online_ppo_grid_room_16_3'
+      - 'online_ppo_grid_room_16_4'
+      - 'online_ppo_grid_room_16_5'
+plt_title: "Gridroom-1"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

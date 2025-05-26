@@ -1,0 +1,29 @@
+results_dirs :
+  GridRoom-1:
+      - 'online_allo_ppo_grid_room_1_1'
+      - 'online_allo_ppo_grid_room_1_2'
+      - 'online_allo_ppo_grid_room_1_3'
+      - 'online_allo_ppo_grid_room_1_4'
+      - 'online_allo_ppo_grid_room_1_5'
+  GridRoom-4:
+      - 'online_allo_ppo_grid_room_4_1'
+      - 'online_allo_ppo_grid_room_4_2'
+      - 'online_allo_ppo_grid_room_4_3'
+      - 'online_allo_ppo_grid_room_4_4'
+      - 'online_allo_ppo_grid_room_4_5'
+  GridMaze-9:
+      - 'online_allo_ppo_grid_maze_9_1'
+      - 'online_allo_ppo_grid_maze_9_2'
+      - 'online_allo_ppo_grid_maze_9_3'
+      - 'online_allo_ppo_grid_maze_9_4'
+      - 'online_allo_ppo_grid_maze_9_5'
+  GridMaze-11:
+      - 'online_allo_ppo_grid_maze_11_1'
+      - 'online_allo_ppo_grid_maze_11_2'
+      - 'online_allo_ppo_grid_maze_11_3'
+      - 'online_allo_ppo_grid_maze_11_4'
+      - 'online_allo_ppo_grid_maze_11_5'
+plt_title: "OALLO"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

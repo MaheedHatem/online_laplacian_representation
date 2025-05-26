@@ -1,0 +1,29 @@
+results_dirs :
+  PPO 0.01-0.01:
+      - 'online_ppo_clipping0.01_grid_room_1_1'
+      - 'online_ppo_clipping0.01_grid_room_1_2'
+      - 'online_ppo_clipping0.01_grid_room_1_3'
+      - 'online_ppo_clipping0.01_grid_room_1_4'
+      - 'online_ppo_clipping0.01_grid_room_1_5'
+  PPO 0.2-0.01:
+      - 'online_ppo_grid_room_1_1'
+      - 'online_ppo_grid_room_1_2'
+      - 'online_ppo_grid_room_1_3'
+      - 'online_ppo_grid_room_1_4'
+      - 'online_ppo_grid_room_1_5'
+  DQN:
+      - 'online_dqn_grid_room_1_1'
+      - 'online_dqn_grid_room_1_2'
+      - 'online_dqn_grid_room_1_3'
+      - 'online_dqn_grid_room_1_4'
+      - 'online_dqn_grid_room_1_5'
+  VPG:
+      - 'online_ppo_clippinginfty_grid_room_1_1'
+      - 'online_ppo_clippinginfty_grid_room_1_2'
+      - 'online_ppo_clippinginfty_grid_room_1_3'
+      - 'online_ppo_clippinginfty_grid_room_1_4'
+      - 'online_ppo_clippinginfty_grid_room_1_5'
+plt_title: "Gridroom-1"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

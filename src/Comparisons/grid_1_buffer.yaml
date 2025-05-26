@@ -1,0 +1,47 @@
+results_dirs :
+  Episodes=1:
+      - 'online_buffer1_ppo_grid_room_1_1'
+      - 'online_buffer1_ppo_grid_room_1_2'
+      - 'online_buffer1_ppo_grid_room_1_3'
+      - 'online_buffer1_ppo_grid_room_1_4'
+      - 'online_buffer1_ppo_grid_room_1_5'
+#   S=5:
+#       - 'online_buffer5_ppo_grid_room_1_1'
+#       - 'online_buffer5_ppo_grid_room_1_2'
+#       - 'online_buffer5_ppo_grid_room_1_3'
+#       - 'online_buffer5_ppo_grid_room_1_4'
+#       - 'online_buffer5_ppo_grid_room_1_5'
+#   S=10:
+#       - 'online_buffer10_ppo_grid_room_1_1'
+#       - 'online_buffer10_ppo_grid_room_1_2'
+#       - 'online_buffer10_ppo_grid_room_1_3'
+#       - 'online_buffer10_ppo_grid_room_1_4'
+#       - 'online_buffer10_ppo_grid_room_1_5'
+  Episodes=20:
+      - 'online_ppo_grid_room_1_1'
+      - 'online_ppo_grid_room_1_2'
+      - 'online_ppo_grid_room_1_3'
+      - 'online_ppo_grid_room_1_4'
+      - 'online_ppo_grid_room_1_5'
+  Episodes=50:
+      - 'online_buffer50_ppo_grid_room_1_1'
+      - 'online_buffer50_ppo_grid_room_1_2'
+      - 'online_buffer50_ppo_grid_room_1_3'
+      - 'online_buffer50_ppo_grid_room_1_4'
+      - 'online_buffer50_ppo_grid_room_1_5'
+#   S=100:
+#       - 'online_buffer100_ppo_grid_room_1_1'
+#       - 'online_buffer100_ppo_grid_room_1_2'
+#       - 'online_buffer100_ppo_grid_room_1_3'
+#       - 'online_buffer100_ppo_grid_room_1_4'
+#       - 'online_buffer100_ppo_grid_room_1_5'
+  Episodes=400:
+      - 'online_buffer400_ppo_grid_room_1_1'
+      - 'online_buffer400_ppo_grid_room_1_2'
+      - 'online_buffer400_ppo_grid_room_1_3'
+      - 'online_buffer400_ppo_grid_room_1_4'
+      - 'online_buffer400_ppo_grid_room_1_5'
+plt_title: "Gridroom-1"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

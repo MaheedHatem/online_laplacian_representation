@@ -1,0 +1,17 @@
+results_dirs :
+  OAGDO:
+      - 'online_ppo_grid_maze_7_1'
+      - 'online_ppo_grid_maze_7_2'
+      - 'online_ppo_grid_maze_7_3'
+      - 'online_ppo_grid_maze_7_4'
+      - 'online_ppo_grid_maze_7_5'
+  OALLO:
+      - 'online_allo_ppo_grid_maze_7_1'
+      - 'online_allo_ppo_grid_maze_7_2'
+      - 'online_allo_ppo_grid_maze_7_3'
+      - 'online_allo_ppo_grid_maze_7_4'
+      - 'online_allo_ppo_grid_maze_7_5'
+plt_title: "Gridroom-1"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

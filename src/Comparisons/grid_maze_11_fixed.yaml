@@ -1,0 +1,17 @@
+results_dirs :
+  AGDO:
+      - 'uniform_grid_maze_11_1'
+      - 'uniform_grid_maze_11_2'
+      - 'uniform_grid_maze_11_3'
+      - 'uniform_grid_maze_11_4'
+      - 'uniform_grid_maze_11_5'
+  ALLO:
+      - 'uniform_allo_grid_maze_11_1'
+      - 'uniform_allo_grid_maze_11_2'
+      - 'uniform_allo_grid_maze_11_3'
+      - 'uniform_allo_grid_maze_11_4'
+      - 'uniform_allo_grid_maze_11_5'
+plt_title: "Gridroom-1"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

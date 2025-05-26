@@ -1,0 +1,29 @@
+results_dirs :
+  Steps=1:
+      - 'online_steps1_ppo_grid_room_1_1'
+      - 'online_steps1_ppo_grid_room_1_2'
+      - 'online_steps1_ppo_grid_room_1_3'
+      - 'online_steps1_ppo_grid_room_1_4'
+      - 'online_steps1_ppo_grid_room_1_5'
+  Steps=5:
+      - 'online_ppo_grid_room_1_1'
+      - 'online_ppo_grid_room_1_2'
+      - 'online_ppo_grid_room_1_3'
+      - 'online_ppo_grid_room_1_4'
+      - 'online_ppo_grid_room_1_5'
+  Steps=10:
+      - 'online_steps10_ppo_grid_room_1_1'
+      - 'online_steps10_ppo_grid_room_1_2'
+      - 'online_steps10_ppo_grid_room_1_3'
+      - 'online_steps10_ppo_grid_room_1_4'
+      - 'online_steps10_ppo_grid_room_1_5'
+  Steps=20:
+      - 'online_steps20_ppo_grid_room_1_1'
+      - 'online_steps20_ppo_grid_room_1_2'
+      - 'online_steps20_ppo_grid_room_1_3'
+      - 'online_steps20_ppo_grid_room_1_4'
+      - 'online_steps20_ppo_grid_room_1_5'
+plt_title: "Gridroom-1"
+column: 1
+x_label: "Environment Steps"
+y_label: "Average Cosine Similarity"

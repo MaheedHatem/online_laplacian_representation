@@ -1,0 +1,71 @@
+d: 11
+replay_max_episodes: 20
+replay_max_steps: 50000
+batch_size: 256
+train_every: 1
+update_policy_encoder_freq: 500
+train_after: 10000
+train_encoder_after: 10000
+updates_per_step: 5
+discount: &discount 0.0
+total_train_steps: &total_train_steps 200000
+print_freq: 10000
+max_episode_steps: 1000
+seed: 1234
+env_name: GridRoom-1
+env_family: Grid-v0
+lr: 0.001
+activation: relu
+eigval_precision_order: 16
+direct_rotation: True
+save_eig: False
+save_model: True
+save_model_every: 500
+device: &device cpu
+obs_mode: xy
+window_size: 180
+reduction_factor: 1
+use_stationary_for_similarity: True
+algorithm: gdo
+regularization_gamma: 0
+error_update_rate: 1
+q_error_update_rate: 0.1
+barrier_initial_val: 5.0
+lr_barrier_coefs: 1.0
+min_barrier_coefs: 5
+max_barrier_coefs: 5
+lr_duals: 0.0001
+lr_dual_velocities: 0.1
+min_duals: -100
+max_duals: 100
+permute_step: 20000
+agent_type: dqn
+encoder_type: mlp
+use_laplacian: True
+load_encoder: False
+load_agent: False
+train_encoder: True
+load_hyper_params: False
+eval_episodes: 1
+agent_params:
+  lr: 3.0e-4
+  training_batches: 1
+  batch_size: 256
+  random_steps_fraction: 0.5
+  init_epsilon: 1
+  final_epsilon: 0.1
+  target_update: 1
+  target_update_every: 500
+  max_grad_norm: 0.5
+  hidden_dims: [64, 64]
+  total_train_steps: *total_train_steps
+  device: *device
+  gamma: 0.99
+  val_coef: 0.5
+  entropy_coef: 0.01
+  init_clip_ratio: 0.2
+  final_clip_ratio: 0.01
+  adam_eps: 1.0e-8
+  lr_annealing: True
+encoder_params:
+  hidden_dims: [256, 256, 256]
